@@ -4,7 +4,7 @@ import NavItemLeft from '../NavItemLeft';
 
 
 
-class SidebarLeft extends Component {
+class SidebarLeftItem extends Component {
   state = {
 
     mock: [
@@ -12,7 +12,7 @@ class SidebarLeft extends Component {
         icon: "user",
         navTitle: "Navbar",
         navLinkTitle: "Sidebar Left",
-        navLink: "/Navbar",
+        navLink: "/SidebarLeft",
 
       },
       {
@@ -50,4 +50,4 @@ class SidebarLeft extends Component {
 
 
 
-export default SidebarLeft;
+export default SidebarLeftItem;
